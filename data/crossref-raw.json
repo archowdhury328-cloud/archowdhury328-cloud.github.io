@@ -1,0 +1,1640 @@
+{
+  "10": {
+    "query": "Understanding the Relationship Between Data Governance and Business Analytics Success: A Case Study of Global Corporations",
+    "best": {
+      "publisher": "Science Research Society",
+      "issue": "4s",
+      "DOI": "10.52783/jisem.v9i4s.14807",
+      "type": "journal-article",
+      "page": "4120-4136",
+      "title": [
+        "Understanding the Relationship Between Data Governance and Business Analytics Success: A Case Study of Global Corporations"
+      ],
+      "volume": "9",
+      "author": [
+        {
+          "family": "Аsikur Rаhmаn Chy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Information Systems Engineering and Management"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.52783/jisem.v9i4s.14807",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "11": {
+    "query": "Empowering Women through Microcredit: An Analysis of the Grameen Bank Model's Impact on Socio-Economic Outcomes",
+    "best": {
+      "publisher": "Iskender AKKURT",
+      "issue": "4",
+      "DOI": "10.22399/ijcesen.4074",
+      "type": "journal-article",
+      "title": [
+        "Empowering Women through Microcredit: An Analysis of the Grameen Bank Model's Impact on Socio-Economic Outcomes"
+      ],
+      "volume": "10",
+      "author": [
+        {
+          "family": "Farhana Karim",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Urmi Haldar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Md Mohibur Rahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Md Anamul Islam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Imran Kazi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Md Alamgir Miah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Kazi Bushra Siddiqa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Md Аsikur Rаhmаn Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "International Journal of Computational and Experimental Science and Engineering"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            30
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.22399/ijcesen.4074",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "12": {
+    "query": "AI-powered workforce analytics forecasting labor market trends and skill gaps for US economic competitiveness",
+    "best": {
+      "publisher": "Al-Kindi Center for Research and Development",
+      "issue": "5",
+      "DOI": "10.32996/jcsts.2024.6.5.21",
+      "type": "journal-article",
+      "page": "265-277",
+      "title": [
+        "AI-Powered Workforce Analytics Forecasting Labor Market Trends and Skill Gaps for U.S. Economic Competitiveness"
+      ],
+      "volume": "6",
+      "author": [
+        {
+          "family": "Foysal Mahmud",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Mohammad Abdul Goffer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Partha Chakraborty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Sharmin Sultana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Evha Rozario",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Md Alamgir Miah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Md Аsikur Rаhmаn Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Urmi Haldar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Computer Science and Technology Studies"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.32996/jcsts.2024.6.5.21",
+      "score": 0.875
+    },
+    "similarity": 0.875
+  },
+  "13": {
+    "query": "A Comparative Review of Machine Learning Algorithms in Supermarket Sales Forecasting with Big Data",
+    "best": {
+      "publisher": "Creative Publishing House",
+      "issue": "8",
+      "DOI": "10.62754/joe.v3i8.6762",
+      "type": "journal-article",
+      "title": [
+        "A Comparative Review of Machine Learning Algorithms in Supermarket Sales Forecasting with Big Data"
+      ],
+      "volume": "3",
+      "author": [
+        {
+          "given": "Sharmin",
+          "family": "Sultana",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Farhana",
+          "family": "Karim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Habiba",
+          "family": "Rahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Аsikur Rаhmаn",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mukther",
+          "family": "Uddin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Nazibullah",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Ekrim",
+          "family": "Hossin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evha",
+          "family": "Rozario",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Ecohumanism"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.62754/joe.v3i8.6762",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "14": {
+    "query": "Harnessing Business Analytics in Management Information Systems to Foster Sustainable Economic Growth Through Smart Manufacturing and Industry 4.0",
+    "best": {
+      "publisher": "Green Publication",
+      "DOI": "10.53555/kuey.v30i10.9643",
+      "type": "journal-article",
+      "page": "730-739",
+      "title": [
+        "Harnessing Business Analytics in Management Information Systems to Foster Sustainable Economic Growth Through Smart Manufacturing and Industry 4.0"
+      ],
+      "author": [
+        {
+          "given": "Md Ekrim",
+          "family": "Hossin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Educational Administration Theory and Practice"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.53555/kuey.v30i10.9643",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "15": {
+    "query": "Enhancing Cybersecurity Threat Detection and Response Through Big Data Analytics in Management Information Systems",
+    "best": {
+      "DOI": "10.52710/fcb.137",
+      "title": [
+        "Enhancing Cybersecurity Threat Detection and Response Through Big Data Analytics in Management Information Systems"
+      ],
+      "author": [
+        {
+          "family": "Syed Nazmul Hasan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Fuel Cells Bulletin"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            31
+          ]
+        ]
+      },
+      "publisher": "Auricle Global Society of Education and Research",
+      "type": "journal-article",
+      "URL": "https://doi.org/10.52710/fcb.137",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "01": {
+    "query": "A compact texture frequency spatial gating network for oral cancer classification from clinical oral images",
+    "best": {
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "DOI": "10.1038/s41598-026-59480-0",
+      "type": "journal-article",
+      "title": [
+        "A compact texture frequency spatial gating network for oral cancer classification from clinical oral images"
+      ],
+      "volume": "16",
+      "author": [
+        {
+          "given": "Mahmudul Haque",
+          "family": "Rijvi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Preety Arifa",
+          "family": "Momotaj",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Syed Mohammed Muhive",
+          "family": "Uddin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Udoy Sankar",
+          "family": "Saha",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sazzat",
+          "family": "Hossain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Asikur Rahman",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mia Md Tofayel Gonee",
+          "family": "Manik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abdul",
+          "family": "Basit",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            6
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1038/s41598-026-59480-0",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "02": {
+    "query": "XACT-TB an explainable hybrid CNN–swin transformer framework for tuberculosis screening from chest X-ray images",
+    "best": {
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "DOI": "10.1007/s44163-026-01509-4",
+      "type": "journal-article",
+      "title": [
+        "XACT-TB an explainable hybrid CNN–swin transformer framework for tuberculosis screening from chest X-ray images"
+      ],
+      "volume": "6",
+      "author": [
+        {
+          "given": "Tawfiqur Rahman",
+          "family": "Sikder",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Asikur Rahman",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Jubayar",
+          "family": "Hossain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Syed Mohammed Muhive",
+          "family": "Uddin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Imtiaz",
+          "family": "Faruk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mia Md Tofayel Gonee",
+          "family": "Manik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohammed",
+          "family": "Adnan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Discover Artificial Intelligence"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            18
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/s44163-026-01509-4",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "03": {
+    "query": "Explainable churn prediction in telecom with tabular ML five model benchmark and SHAP analysis",
+    "best": {
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "DOI": "10.1007/s44163-026-00983-0",
+      "type": "journal-article",
+      "title": [
+        "Explainable churn prediction in telecom with tabular ML five model benchmark and SHAP analysis"
+      ],
+      "volume": "6",
+      "author": [
+        {
+          "given": "Ismoth",
+          "family": "Zerine",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Mainul",
+          "family": "Islam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohammad Aman Ullah",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Аsikur Rаhmаn",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abu Saleh Muhammad",
+          "family": "Saimon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mia Md. Tofayel Gonee",
+          "family": "Manik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chala",
+          "family": "Wata",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Discover Artificial Intelligence"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            22
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/s44163-026-00983-0",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "04": {
+    "query": "Efficient Homomorphic Encryption Techniques for Confidential Big-Data Analytics over Public Cloud Infrastructures: Algorithms, Performance, and Trade-Offs",
+    "best": {
+      "publisher": "Springer Nature Switzerland",
+      "DOI": "10.1007/978-3-032-21499-7_41",
+      "type": "book-chapter",
+      "page": "507-528",
+      "title": [
+        "Efficient Homomorphic Encryption Techniques for Confidential Big-Data Analytics over Public Cloud Infrastructures: Algorithms, Performance, and Trade-Offs"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-4868-5371",
+          "authenticated-orcid": false,
+          "given": "Sraboni Clara",
+          "family": "Mohonta",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-6550-7104",
+          "authenticated-orcid": false,
+          "given": "Md Аsikur Rаhmаn",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-5250-4652",
+          "authenticated-orcid": false,
+          "given": "Md Abubokor",
+          "family": "Siam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-0995-8761",
+          "authenticated-orcid": false,
+          "given": "Mukther",
+          "family": "Uddin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-4480-9907",
+          "authenticated-orcid": false,
+          "given": "Farhana",
+          "family": "Karim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-1003-6207",
+          "authenticated-orcid": false,
+          "given": "Md Kamal",
+          "family": "Ahmed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-6098-5213",
+          "authenticated-orcid": false,
+          "given": "Mia Md Tofayel Gonee",
+          "family": "Manik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Lecture Notes in Networks and Systems",
+        "Proceedings of Fifth International Conference on Computing and Communication Networks"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-032-21499-7_41",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "05": {
+    "query": "Artificial Intelligence Models for End-to-End Supply Chain Optimization",
+    "best": {
+      "publisher": "IEEE",
+      "DOI": "10.1109/i3ctcon68242.2026.11507407",
+      "type": "proceedings-article",
+      "page": "1-8",
+      "title": [
+        "Artificial Intelligence Models for End-to-End Supply Chain Optimization"
+      ],
+      "author": [
+        {
+          "given": "Narmin",
+          "family": "Sayeed",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The London School of Economics and Political Science,Social Policy &#x0026; Planning,Department of Science,London,United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Udoy Sankar",
+          "family": "Saha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "St. Francis College,Department of Management &#x0026; IT,Brooklyn,New York,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Farhana",
+          "family": "Karim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southeast Missouri State University,Harrison College of Business &#x0026; Computing,Cape Girardeau,Missouri,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md",
+          "family": "Mustafizur",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Administration University of The Potomac,Department of Business,Washington, D.C,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Syed Mohammed",
+          "family": "Muhive Uddin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Washington University of Science &#x0026; Technology,Department of Business Administration,Alexandria,Virginia,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md",
+          "family": "Asikur Rahman Chy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "American University,School of Business International,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON)"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            14
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/i3ctcon68242.2026.11507407",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "06": {
+    "query": "Economic Implications of Homelessness in the US Applying Advanced Business Analytics to Forecast Costs and Develop Sustainable Solutions",
+    "best": {
+      "publisher": "IEEE",
+      "DOI": "10.1109/icecet63943.2025.11472202",
+      "type": "proceedings-article",
+      "page": "1-5",
+      "title": [
+        "Economic Implications of Homelessness in the U.S. Applying Advanced Business Analytics to Forecast Costs and Develop Sustainable Solutions"
+      ],
+      "author": [
+        {
+          "given": "Mohammad Muzahidur Rahman",
+          "family": "Bhuiyan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Westcliff University,College of Business,Irvine,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Asikur Rahman",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Ekrim",
+          "family": "Hossin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evha",
+          "family": "Rozario",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sharmin",
+          "family": "Sultana",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fahmida Binte",
+          "family": "Khair",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Kamal",
+          "family": "Ahmed",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "2025 5th International Conference on Electrical, Computer and Energy Technologies (ICECET)"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            3
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/icecet63943.2025.11472202",
+      "score": 0.8947368421052632
+    },
+    "similarity": 0.8947368421052632
+  },
+  "07": {
+    "query": "Bio-Cognitive AI Systems for Predictive Healthcare Decision Support",
+    "best": {
+      "publisher": "IEEE",
+      "DOI": "10.1109/icaft66710.2025.11453175",
+      "type": "proceedings-article",
+      "page": "1-9",
+      "title": [
+        "Bio-Cognitive AI Systems for Predictive Healthcare Decision Support"
+      ],
+      "author": [
+        {
+          "given": "Syed Mohammed Muhive",
+          "family": "Uddin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Washington University of Science and Technology,Department of Business Administration,Alexandria,Virginia,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Asikur Rahman",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tawfiqur Rahman",
+          "family": "Sikder",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International American University,School of Business,Los Angeles,California,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Imtiaz",
+          "family": "Faruk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University: St. Francis College,Department of Management &#x0026; IT,New York,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muhammad",
+          "family": "Adnan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Trine University,College of Graduate and Professional Studies,Detroit,Michigan,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Jubayar",
+          "family": "Hossain",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "St. Francis College,Department of Management &#x0026; IT,New York,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mia Md. Tofayel Gonee",
+          "family": "Manik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of the Cumberlands,Department of Information Technology,Williamsburg,Kentucky,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT)"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1109/icaft66710.2025.11453175",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "08": {
+    "query": "Blockchain-Driven Access Control and Compliance Auditing Framework for Federated Cloud Service Providers: Architecture, Prototype and Evaluation",
+    "best": {
+      "publisher": "Springer Nature Switzerland",
+      "DOI": "10.1007/978-3-032-14197-2_41",
+      "type": "book-chapter",
+      "page": "464-487",
+      "title": [
+        "Blockchain-Driven Access Control and Compliance Auditing Framework for Federated Cloud Service Providers: Architecture, Prototype and Evaluation"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-4040-7583",
+          "authenticated-orcid": false,
+          "given": "Urmi",
+          "family": "Haldar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-7213-4504",
+          "authenticated-orcid": false,
+          "given": "Sharmin",
+          "family": "Sultana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-0283-9850",
+          "authenticated-orcid": false,
+          "given": "Kazi Bushra",
+          "family": "Siddiqa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-3077-2011",
+          "authenticated-orcid": false,
+          "given": "Evha",
+          "family": "Rozario",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-5780-125X",
+          "authenticated-orcid": false,
+          "given": "Md Alamgir",
+          "family": "Miah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-8101-479X",
+          "authenticated-orcid": false,
+          "given": "Habiba",
+          "family": "Rahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-6550-7104",
+          "authenticated-orcid": false,
+          "given": "Md Аsikur Rаhmаn",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Lecture Notes in Networks and Systems",
+        "Proceedings of Fifth International Conference on Computing and Communication Networks"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.1007/978-3-032-14197-2_41",
+      "score": 1
+    },
+    "similarity": 1
+  },
+  "09": {
+    "query": "AI-augmented big data analytics for real-time cyber attack detection and proactive threat mitigation",
+    "best": {
+      "publisher": "Iskender AKKURT",
+      "issue": "3",
+      "DOI": "10.22399/ijcesen.3564",
+      "type": "journal-article",
+      "title": [
+        "AI-Augmented Big Data Analytics for Real-Time Cyber Attack Detection and Proactive Threat Mitigation"
+      ],
+      "volume": "11",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0005-7213-4504",
+          "authenticated-orcid": false,
+          "given": "Sharmin",
+          "family": "Sultana",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-0995-8761",
+          "authenticated-orcid": false,
+          "given": "Mukther",
+          "family": "Uddin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-6550-7104",
+          "authenticated-orcid": false,
+          "given": "Md Аsikur Rаhmаn",
+          "family": "Chy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-0977-595X",
+          "authenticated-orcid": false,
+          "given": "Syed Nazmul",
+          "family": "Hasan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-2080-780X",
+          "authenticated-orcid": false,
+          "given": "Emran",
+          "family": "Hossain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-7062-0700",
+          "authenticated-orcid": false,
+          "given": "Harleen",
+          "family": "Kaur",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-4132-1413",
+          "authenticated-orcid": false,
+          "given": "Md Nazibullah",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jobanpreet",
+          "family": "Kaur",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "International Journal of Computational and Experimental Science and Engineering"
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            23
+          ]
+        ]
+      },
+      "URL": "https://doi.org/10.22399/ijcesen.3564",
+      "score": 1
+    },
+    "similarity": 1
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://archowdhury328-cloud.github.io/sitemap.xml

@@ -1,0 +1,273 @@
+{
+  "10": {
+    "doi": "10.52783/jisem.v9i4s.14807",
+    "crossrefTitle": "Understanding the Relationship Between Data Governance and Business Analytics Success: A Case Study of Global Corporations",
+    "similarity": 1,
+    "venue": "Journal of Information Systems Engineering and Management",
+    "publisher": "Science Research Society",
+    "type": "journal-article",
+    "issued": "2024-12-30",
+    "volume": "9",
+    "issue": "4s",
+    "pages": "4120-4136"
+  },
+  "11": {
+    "doi": "10.22399/ijcesen.4074",
+    "crossrefTitle": "Empowering Women through Microcredit: An Analysis of the Grameen Bank Model's Impact on Socio-Economic Outcomes",
+    "similarity": 1,
+    "venue": "International Journal of Computational and Experimental Science and Engineering",
+    "publisher": "Iskender AKKURT",
+    "type": "journal-article",
+    "issued": "2024-12-30",
+    "volume": "10",
+    "issue": "4",
+    "authors": [
+      "Farhana Karim",
+      "Urmi Haldar",
+      "Md Mohibur Rahman",
+      "Md Anamul Islam",
+      "Imran Kazi",
+      "Md Alamgir Miah",
+      "Kazi Bushra Siddiqa",
+      "Md Asikur Rahman Chy"
+    ]
+  },
+  "12": {
+    "doi": "10.32996/jcsts.2024.6.5.21",
+    "crossrefTitle": "AI-Powered Workforce Analytics Forecasting Labor Market Trends and Skill Gaps for U.S. Economic Competitiveness",
+    "similarity": 0.88,
+    "venue": "Journal of Computer Science and Technology Studies",
+    "publisher": "Al-Kindi Center for Research and Development",
+    "type": "journal-article",
+    "issued": "2024-12-31",
+    "volume": "6",
+    "issue": "5",
+    "pages": "265-277",
+    "authors": [
+      "Foysal Mahmud",
+      "Mohammad Abdul Goffer",
+      "Partha Chakraborty",
+      "Sharmin Sultana",
+      "Evha Rozario",
+      "Md Alamgir Miah",
+      "Md Asikur Rahman Chy",
+      "Urmi Haldar"
+    ]
+  },
+  "13": {
+    "doi": "10.62754/joe.v3i8.6762",
+    "crossrefTitle": "A Comparative Review of Machine Learning Algorithms in Supermarket Sales Forecasting with Big Data",
+    "similarity": 1,
+    "venue": "Journal of Ecohumanism",
+    "publisher": "Creative Publishing House",
+    "type": "journal-article",
+    "issued": "2024-12-31",
+    "volume": "3",
+    "issue": "8",
+    "authors": [
+      "Sharmin Sultana",
+      "Farhana Karim",
+      "Habiba Rahman",
+      "Md Asikur Rahman Chy",
+      "Mukther Uddin",
+      "Md Nazibullah Khan",
+      "Md Ekrim Hossin",
+      "Evha Rozario"
+    ]
+  },
+  "14": {
+    "doi": "10.53555/kuey.v30i10.9643",
+    "crossrefTitle": "Harnessing Business Analytics in Management Information Systems to Foster Sustainable Economic Growth Through Smart Manufacturing and Industry 4.0",
+    "similarity": 1,
+    "venue": "Educational Administration Theory and Practice",
+    "publisher": "Green Publication",
+    "type": "journal-article",
+    "issued": "2024-10-22",
+    "pages": "730-739"
+  },
+  "15": {
+    "doi": "10.52710/fcb.137",
+    "crossrefTitle": "Enhancing Cybersecurity Threat Detection and Response Through Big Data Analytics in Management Information Systems",
+    "similarity": 1,
+    "venue": "Fuel Cells Bulletin",
+    "publisher": "Auricle Global Society of Education and Research",
+    "type": "journal-article",
+    "issued": "2023-12-31"
+  },
+  "01": {
+    "doi": "10.1038/s41598-026-59480-0",
+    "crossrefTitle": "A compact texture frequency spatial gating network for oral cancer classification from clinical oral images",
+    "similarity": 1,
+    "venue": "Scientific Reports",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": "2026-7-6",
+    "volume": "16",
+    "issue": "1",
+    "authors": [
+      "Mahmudul Haque Rijvi",
+      "Preety Arifa Momotaj",
+      "Syed Mohammed Muhive Uddin",
+      "Udoy Sankar Saha",
+      "Sazzat Hossain",
+      "Md Asikur Rahman Chy",
+      "Mia Md Tofayel Gonee Manik",
+      "Abdul Basit"
+    ]
+  },
+  "02": {
+    "doi": "10.1007/s44163-026-01509-4",
+    "crossrefTitle": "XACT-TB an explainable hybrid CNN–swin transformer framework for tuberculosis screening from chest X-ray images",
+    "similarity": 1,
+    "venue": "Discover Artificial Intelligence",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": "2026-6-18",
+    "volume": "6",
+    "issue": "1",
+    "authors": [
+      "Tawfiqur Rahman Sikder",
+      "Md Asikur Rahman Chy",
+      "Md Jubayar Hossain",
+      "Syed Mohammed Muhive Uddin",
+      "Md Imtiaz Faruk",
+      "Mia Md Tofayel Gonee Manik",
+      "Mohammed Adnan"
+    ]
+  },
+  "03": {
+    "doi": "10.1007/s44163-026-00983-0",
+    "crossrefTitle": "Explainable churn prediction in telecom with tabular ML five model benchmark and SHAP analysis",
+    "similarity": 1,
+    "venue": "Discover Artificial Intelligence",
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "issued": "2026-2-22",
+    "volume": "6",
+    "issue": "1",
+    "authors": [
+      "Ismoth Zerine",
+      "Md Mainul Islam",
+      "Mohammad Aman Ullah Khan",
+      "Md Asikur Rahman Chy",
+      "Abu Saleh Muhammad Saimon",
+      "Mia Md. Tofayel Gonee Manik",
+      "Chala Wata"
+    ]
+  },
+  "04": {
+    "doi": "10.1007/978-3-032-21499-7_41",
+    "crossrefTitle": "Efficient Homomorphic Encryption Techniques for Confidential Big-Data Analytics over Public Cloud Infrastructures: Algorithms, Performance, and Trade-Offs",
+    "similarity": 1,
+    "venue": "Proceedings of Fifth International Conference on Computing and Communication Networks",
+    "publisher": "Springer Nature Switzerland",
+    "type": "book-chapter",
+    "issued": "2026",
+    "pages": "507-528",
+    "authors": [
+      "Sraboni Clara Mohonta",
+      "Md Asikur Rahman Chy",
+      "Md Abubokor Siam",
+      "Mukther Uddin",
+      "Farhana Karim",
+      "Md Kamal Ahmed",
+      "Mia Md Tofayel Gonee Manik"
+    ]
+  },
+  "05": {
+    "doi": "10.1109/i3ctcon68242.2026.11507407",
+    "crossrefTitle": "Artificial Intelligence Models for End-to-End Supply Chain Optimization",
+    "similarity": 1,
+    "venue": "2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": "2026-3-14",
+    "pages": "1-8",
+    "authors": [
+      "Narmin Sayeed",
+      "Udoy Sankar Saha",
+      "Farhana Karim",
+      "Md Mustafizur",
+      "Syed Mohammed Muhive Uddin",
+      "Md Asikur Rahman Chy"
+    ]
+  },
+  "06": {
+    "doi": "10.1109/icecet63943.2025.11472202",
+    "crossrefTitle": "Economic Implications of Homelessness in the U.S. Applying Advanced Business Analytics to Forecast Costs and Develop Sustainable Solutions",
+    "similarity": 0.89,
+    "venue": "2025 5th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": "2025-7-3",
+    "pages": "1-5",
+    "authors": [
+      "Mohammad Muzahidur Rahman Bhuiyan",
+      "Md Asikur Rahman Chy",
+      "Md Ekrim Hossin",
+      "Evha Rozario",
+      "Sharmin Sultana",
+      "Fahmida Binte Khair",
+      "Md Kamal Ahmed"
+    ]
+  },
+  "07": {
+    "doi": "10.1109/icaft66710.2025.11453175",
+    "crossrefTitle": "Bio-Cognitive AI Systems for Predictive Healthcare Decision Support",
+    "similarity": 1,
+    "venue": "2025 1st International Conference on Advancement in Futuristic Technologies (ICAFT)",
+    "publisher": "IEEE",
+    "type": "proceedings-article",
+    "issued": "2025-12-19",
+    "pages": "1-9",
+    "authors": [
+      "Syed Mohammed Muhive Uddin",
+      "Md Asikur Rahman Chy",
+      "Tawfiqur Rahman Sikder",
+      "Md Imtiaz Faruk",
+      "Muhammad Adnan",
+      "Md Jubayar Hossain",
+      "Mia Md. Tofayel Gonee Manik"
+    ]
+  },
+  "08": {
+    "doi": "10.1007/978-3-032-14197-2_41",
+    "crossrefTitle": "Blockchain-Driven Access Control and Compliance Auditing Framework for Federated Cloud Service Providers: Architecture, Prototype and Evaluation",
+    "similarity": 1,
+    "venue": "Proceedings of Fifth International Conference on Computing and Communication Networks",
+    "publisher": "Springer Nature Switzerland",
+    "type": "book-chapter",
+    "issued": "2026",
+    "pages": "464-487",
+    "authors": [
+      "Urmi Haldar",
+      "Sharmin Sultana",
+      "Kazi Bushra Siddiqa",
+      "Evha Rozario",
+      "Md Alamgir Miah",
+      "Habiba Rahman",
+      "Md Asikur Rahman Chy"
+    ]
+  },
+  "09": {
+    "doi": "10.22399/ijcesen.3564",
+    "crossrefTitle": "AI-Augmented Big Data Analytics for Real-Time Cyber Attack Detection and Proactive Threat Mitigation",
+    "similarity": 1,
+    "venue": "International Journal of Computational and Experimental Science and Engineering",
+    "publisher": "Iskender AKKURT",
+    "type": "journal-article",
+    "issued": "2025-7-23",
+    "volume": "11",
+    "issue": "3",
+    "authors": [
+      "Sharmin Sultana",
+      "Mukther Uddin",
+      "Md Asikur Rahman Chy",
+      "Syed Nazmul Hasan",
+      "Emran Hossain",
+      "Harleen Kaur",
+      "Md Nazibullah Khan",
+      "Jobanpreet Kaur"
+    ]
+  }
+}
