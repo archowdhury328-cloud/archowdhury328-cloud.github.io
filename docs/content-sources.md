@@ -60,9 +60,10 @@ the reported accuracy.
 
 ## Repositories
 
-Only two repositories are linked, each checked to exist:
+Five repositories are linked, each checked to exist and to correspond to its paper:
 
 * `archowdhury328-cloud/XACT-TB` for p02 (owner-supplied XACT-TB repository).
+* `archowdhury328-cloud/OCAT-Net-S` (p01), `Efficient-HE-Cloud-Analytics` (p04) and `AI-Powered-Workforce-Analytics` (p12): reconstructions or audits, labelled as such.
 * `archowdhury328-cloud/Explainable-Telecom-Churn` for p03: an independent public-data reconstruction and statistical audit, stated as such
   on the page; it is not the original authors' code.
 

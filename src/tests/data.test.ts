@@ -63,7 +63,7 @@ describe('publication dataset', () => {
   });
 
   it('only attaches repositories that were verified to correspond to a paper', () => {
-    expect(publications.filter((p) => p.repositoryUrl).map((p) => p.id)).toEqual(['p02', 'p03']);
+    expect(publications.filter((p) => p.repositoryUrl).map((p) => p.id)).toEqual(['p01', 'p02', 'p03', 'p04', 'p12']);
   });
 
   it('gives every publication an abstract-based summary, keywords and a recorded source', () => {
