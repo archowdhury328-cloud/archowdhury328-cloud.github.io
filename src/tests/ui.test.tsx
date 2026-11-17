@@ -235,7 +235,7 @@ describe('App', () => {
       render(<App />);
     });
     expect(screen.getByRole('heading', { level: 1, name: 'Md Asikur Rahman Chy' })).toBeInTheDocument();
-    expect(screen.getAllByText(/School of Business, International American University, Los Angeles, CA, USA/).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/School of Business, University of the Cumberlands, Williamsburg, KY, USA/).length).toBeGreaterThan(0);
     ['#snapshot', '#about', '#research', '#solar-system', '#publications', '#code', '#connect'].forEach((id) => expect(document.querySelector(id)).not.toBeNull());
     expect(screen.getByRole('link', { name: 'Explore publications' })).toHaveAttribute('href', '#publications');
     expect(screen.queryByText(/download cv/i)).not.toBeInTheDocument();

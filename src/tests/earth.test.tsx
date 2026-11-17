@@ -19,8 +19,8 @@ describe('EarthSection', () => {
     expect(btn).toHaveAttribute('aria-expanded', 'true');
     const card = document.getElementById('affil-card')!;
     expect(card).toBeVisible();
-    expect(within(card).getByText('International American University')).toBeInTheDocument();
-    expect(card.textContent).toContain('School of Business, Los Angeles, CA, USA');
+    expect(within(card).getByText('University of the Cumberlands')).toBeInTheDocument();
+    expect(card.textContent).toContain('School of Business, Williamsburg, KY, USA');
   });
 
   it('labels decorative connections as a conceptual network, not collaborations', () => {

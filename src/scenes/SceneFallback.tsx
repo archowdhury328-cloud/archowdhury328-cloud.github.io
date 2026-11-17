@@ -4,7 +4,7 @@ export type SceneKind = 'workstation' | 'earth' | 'system';
 
 const ARIA: Record<SceneKind, string> = {
   workstation: 'Illustration of a research workstation: a monitor showing a dashboard on a desk, with violet contour lines behind it.',
-  earth: 'Illustration of a dotted globe with a marker near Los Angeles and orbiting topic markers.',
+  earth: 'Illustration of a dotted globe with a marker near Williamsburg, Kentucky and orbiting topic markers.',
   system: 'Illustration of a central Research sphere with five topic planets orbiting it, each with small publication nodes.',
 };
 

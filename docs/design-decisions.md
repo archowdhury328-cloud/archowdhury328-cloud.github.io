@@ -12,7 +12,7 @@ All scenes are real WebGL (Three.js through React Three Fiber, `Html` from Drei 
 * **Workstation** (hero): procedural desk, monitor with a canvas-drawn dashboard (topic names plus clearly captioned "illustrative" shapes,
   no measurements), instanced keyboard keys, mouse, compact computer, notebook, violet contour rings behind. Pointer drift (fine pointers, never
   reduced-motion) and constrained OrbitControls. In-scene shortcut chips are real links; the same links exist below the canvas.
-* **Connected Earth**: real coastlines (Natural Earth sampling), Fresnel atmosphere, one factual affiliation marker at Los Angeles (34.05, -118.24),
+* **Connected Earth**: real coastlines (Natural Earth sampling), Fresnel atmosphere, one factual affiliation marker at Williamsburg, KY (36.745, -84.159),
   five topic markers (distinct shapes) and a labelled Google Scholar satellite. Arcs are decorative and the page says so.
 * **Publication solar system**: central "Research" object, five topic planets, 15 equal-sized publication satellites (each exactly once), stable
   deterministic layout. Selection opens a normal-flow HTML panel with "Read publication" (DOI) and "View on Scholar".
@@ -37,5 +37,5 @@ motion pauses while a publication is selected and while the pointer or focus is 
 and pointer drift; the persistent "Pause animation" and "3D / Simple view" preferences are stored in `localStorage` (wrapped in try/catch).
 
 ## Content integrity
-No degrees, titles, employment, awards, grants, clients, collaborations, e-mail, phone or residence are stated. Los Angeles is only ever shown
+No degrees, titles, employment, awards, grants, clients, collaborations, e-mail, phone or residence are stated. Williamsburg, KY is only ever shown
 as the institution's location. No CV button, contact form or fabricated GitHub projects.

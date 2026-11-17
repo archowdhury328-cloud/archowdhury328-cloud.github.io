@@ -13,8 +13,8 @@ export const profile = {
     'My research interests span artificial intelligence, business analytics, healthcare applications, cybersecurity, and economic decision-making. Explore my publications and research themes below.',
   affiliation: {
     unit: 'School of Business',
-    institution: 'International American University',
-    place: 'Los Angeles, CA, USA',
+    institution: 'University of the Cumberlands',
+    place: 'Williamsburg, KY, USA',
   },
   interests: [
     'Artificial intelligence',

@@ -33,7 +33,7 @@ export interface EarthSceneProps {
   resetKey?: number;
 }
 
-export const LA = { lat: 34.05, lon: -118.24 }; // Los Angeles; supplied institution location
+export const LA = { lat: 36.745, lon: -84.159 }; // Williamsburg, KY: University of the Cumberlands
 const R = 1;
 const TARGET: [number, number, number] = [0, 0, 0];
 const DIR: [number, number, number] = [0, 0.18, 1];
@@ -212,7 +212,7 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
   useEffect(() => {
     if (resetKey === 0) return;
     controls.current?.reset();
-    if (globe.current) globe.current.rotation.y = 1.95;
+    if (globe.current) globe.current.rotation.y = 1.5;
     t.current = 0;
     invalidate();
   }, [resetKey, invalidate]);
@@ -238,13 +238,13 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
         onEnd={() => setDragging(false)}
         onChange={() => invalidate()}
       />
-      <group ref={globe} rotation={[0, 1.95, 0]}>
+      <group ref={globe} rotation={[0, 1.5, 0]}>
         <mesh>
           <sphereGeometry args={[R, 48, 36]} />
           <meshStandardMaterial color="#0e1a3a" emissive="#0a1230" emissiveIntensity={0.6} roughness={0.75} metalness={0.1} />
         </mesh>
         <LandDots />
-        {/* Los Angeles: supplied institution location */}
+        {/* Williamsburg, KY: institution location */}
         <group position={laPos} quaternion={laQuat}>
           <mesh>
             <sphereGeometry args={[0.028, 16, 12]} />
@@ -265,8 +265,8 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
           </mesh>
           <Hit radius={0.11} onClick={guarded(onAffiliation)} onOver={() => setHover(true)} onOut={() => setHover(false)} />
           <Html portal={overlay} position={[0.1, 0.1, 0]} zIndexRange={[20, 0]}>
-            <button type="button" className="hotspot" onClick={onAffiliation} aria-expanded={affiliationOpen} aria-label="Show affiliation: International American University, School of Business, Los Angeles">
-              Los Angeles
+            <button type="button" className="hotspot" onClick={onAffiliation} aria-expanded={affiliationOpen} aria-label="Show affiliation: University of the Cumberlands, School of Business, Williamsburg, Kentucky">
+              Williamsburg, KY
             </button>
           </Html>
         </group>

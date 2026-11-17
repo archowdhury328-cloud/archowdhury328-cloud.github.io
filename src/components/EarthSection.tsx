@@ -31,7 +31,7 @@ export function EarthSection() {
         <p className="eyebrow"><span className="idx">03</span>Research</p>
         <h2 id="earth-title">The connected Earth</h2>
         <p className="lede">
-          A gateway to my affiliation and research themes. The marker near Los Angeles is the supplied institution location.
+          A gateway to my affiliation and research themes. The marker near Williamsburg, Kentucky is the institution location.
           The orbiting markers are research topics, and the arcs are a decorative, conceptual research network. They do not depict
           collaborations, partners or travel.
         </p>
