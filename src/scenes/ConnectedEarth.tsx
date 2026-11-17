@@ -265,7 +265,7 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
           </mesh>
           <Hit radius={0.11} onClick={guarded(onAffiliation)} onOver={() => setHover(true)} onOut={() => setHover(false)} />
           <Html portal={overlay} position={[0.1, 0.1, 0]} zIndexRange={[20, 0]}>
-            <button type="button" className="hotspot" onClick={onAffiliation} aria-expanded={affiliationOpen} aria-label="Show affiliation: University of the Cumberlands, School of Business, Williamsburg, Kentucky">
+            <button type="button" className="hotspot" onClick={onAffiliation} aria-expanded={affiliationOpen} aria-label="Show affiliation: University of the Cumberlands, Department of Information Technology, Williamsburg, Kentucky">
               Williamsburg, KY
             </button>
           </Html>

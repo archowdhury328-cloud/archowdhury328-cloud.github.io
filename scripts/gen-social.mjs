@@ -17,7 +17,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
   <text x="80" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="68" fill="#F3F5FA">Rahman Chy</text>
   <text x="80" y="410" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#AAB4C8">Research at the intersection of AI, analytics,</text>
   <text x="80" y="446" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#AAB4C8">and real-world decisions.</text>
-  <text x="80" y="548" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#69D9E8">School of Business, University of the Cumberlands</text>
+  <text x="80" y="548" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#69D9E8">Department of Information Technology, University of the Cumberlands</text>
   <text x="80" y="580" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#69D9E8">Williamsburg, KY, USA</text>
 </svg>`;
 

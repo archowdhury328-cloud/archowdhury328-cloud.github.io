@@ -194,7 +194,7 @@ test('layout stability and load timing (measured, software-rendered headless; no
 test('static HTML contains name, affiliation and publications before JavaScript runs', async ({ request }) => {
   const html = await (await request.get('/')).text();
   expect(html).toContain('Md Asikur Rahman Chy');
-  expect(html).toContain('School of Business, University of the Cumberlands, Williamsburg, KY, USA');
+  expect(html).toContain('Department of Information Technology, University of the Cumberlands, Williamsburg, KY, USA');
   expect(html).toContain('citation_for_view=mAM8u_UAAAAJ:Se3iqnhoufwC');
   expect(html).toContain('rel="canonical"');
   expect(html).toContain('"@type": "Person"');

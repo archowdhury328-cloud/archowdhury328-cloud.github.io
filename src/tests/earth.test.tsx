@@ -20,7 +20,7 @@ describe('EarthSection', () => {
     const card = document.getElementById('affil-card')!;
     expect(card).toBeVisible();
     expect(within(card).getByText('University of the Cumberlands')).toBeInTheDocument();
-    expect(card.textContent).toContain('School of Business, Williamsburg, KY, USA');
+    expect(card.textContent).toContain('Department of Information Technology, Williamsburg, KY, USA');
   });
 
   it('labels decorative connections as a conceptual network, not collaborations', () => {

@@ -12,7 +12,7 @@ export const profile = {
   intro:
     'My research interests span artificial intelligence, business analytics, healthcare applications, cybersecurity, and economic decision-making. Explore my publications and research themes below.',
   affiliation: {
-    unit: 'School of Business',
+    unit: 'Department of Information Technology',
     institution: 'University of the Cumberlands',
     place: 'Williamsburg, KY, USA',
   },

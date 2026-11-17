@@ -1,6 +1,6 @@
 # Research Universe: Md Asikur Rahman Chy
 
-Personal research portfolio of **Md Asikur Rahman Chy**, School of Business, University of the Cumberlands, Williamsburg, KY, USA.
+Personal research portfolio of **Md Asikur Rahman Chy**, Department of Information Technology, University of the Cumberlands, Williamsburg, KY, USA.
 
 * GitHub: <https://github.com/archowdhury328-cloud>
 * Google Scholar: <https://scholar.google.com/citations?hl=en&user=mAM8u_UAAAAJ&view_op=list_works&sortby=pubdate>
