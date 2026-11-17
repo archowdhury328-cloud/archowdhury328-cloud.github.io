@@ -176,13 +176,13 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
 @media (max-width: 599px) { .scene-box .hotspot { display: none; } .scene-label { font-size: 0.62rem; } }
 
 /* ---------- metrics */
-.metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4); margin: 0 0 var(--s4); }
+.metrics { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4); margin: 0 0 var(--s4); }
 @media (min-width: 760px) { .metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .metric { position: relative; background: linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015)); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s5); display: flex; flex-direction: column; gap: var(--s1); overflow: hidden; }
 .metric::after { content: ''; position: absolute; inset: auto -30% -60% auto; width: 70%; aspect-ratio: 1; background: radial-gradient(closest-side, rgba(155, 123, 255, 0.18), transparent); pointer-events: none; }
 .metric-icon { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: rgba(155, 123, 255, 0.14); color: var(--violet-2); margin-bottom: var(--s3); }
-.metric dd { margin: 0; font-family: var(--font-head); font-size: clamp(2rem, 1.5rem + 1.8vw, 3rem); line-height: 1; }
-.metric dt { color: var(--text-2); font-size: 0.9rem; }
+.metric-value { margin: 0; font-family: var(--font-head); font-size: clamp(2rem, 1.5rem + 1.8vw, 3rem); line-height: 1; }
+.metric-label { color: var(--text-2); font-size: 0.9rem; }
 
 /* ---------- interests */
 .interest-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }

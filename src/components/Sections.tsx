@@ -30,15 +30,15 @@ export function ResearchMetrics() {
   return (
     <section className="section" id="snapshot" aria-labelledby="snap-title">
       <SectionHead index="01" eyebrow="Research snapshot" title="At a glance" id="snap-title" />
-      <dl className="metrics">
+      <ul className="metrics" aria-label="Research metrics">
         {items.map((i) => (
-          <div key={i.label} className="metric">
+          <li key={i.label} className="metric">
             <span className="metric-icon">{i.icon}</span>
-            <dd>{i.value}</dd>
-            <dt>{i.label}</dt>
-          </div>
+            <span className="metric-value">{i.value}</span>
+            <span className="metric-label">{i.label}</span>
+          </li>
         ))}
-      </dl>
+      </ul>
       <p className="note">
         {m.source} The collection date is unknown; these figures are not live.{' '}
         <a href={SCHOLAR_PROFILE_URL} {...EXTERNAL_LINK_PROPS}>
