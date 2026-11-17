@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { useFrame, useThree, type ThreeEvent } from '@react-three/fiber';
-import { Html, OrbitControls, useCursor } from '@react-three/drei';
+import { Html, Line, OrbitControls, Stars, useCursor } from '@react-three/drei';
 import {
   AdditiveBlending,
   BackSide,
@@ -9,6 +9,7 @@ import {
   Float32BufferAttribute,
   Group,
   LineSegments,
+  Quaternion,
   Vector3,
 } from 'three';
 import dots from '../data/earthDots.json';
@@ -79,14 +80,14 @@ function LandDots() {
   );
   return (
     <points geometry={geom}>
-      <pointsMaterial map={tex} size={0.036} color="#8be6f2" transparent opacity={1} depthWrite={false} alphaTest={0.05} sizeAttenuation />
+      <pointsMaterial map={tex} size={0.04} color="#9cf0fa" transparent opacity={1} depthWrite={false} alphaTest={0.05} sizeAttenuation toneMapped={false} />
     </points>
   );
 }
 
 const ATMOSPHERE = {
   vertexShader: 'varying vec3 vN; varying vec3 vV; void main(){ vec4 mv = modelViewMatrix*vec4(position,1.0); vN = normalize(normalMatrix*normal); vV = normalize(-mv.xyz); gl_Position = projectionMatrix*mv; }',
-  fragmentShader: 'varying vec3 vN; varying vec3 vV; void main(){ float f = pow(0.72 - dot(vN, vV), 2.4); gl_FragColor = vec4(0.41,0.85,0.91,1.0)*clamp(f,0.0,1.0)*0.5; }',
+  fragmentShader: 'varying vec3 vN; varying vec3 vV; void main(){ float f = pow(0.72 - dot(vN, vV), 2.4); gl_FragColor = vec4(0.45,0.75,1.0,1.0)*clamp(f,0.0,1.0)*0.35; }',
 };
 
 interface Marker {
@@ -128,6 +129,7 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
   const invalidate = useThree((s) => s.invalidate);
   const globe = useRef<Group>(null);
   const markerRefs = useRef<(Group | null)[]>([]);
+  const labelRefs = useRef<(HTMLDivElement | null)[]>([]);
   const satRef = useRef<Group>(null);
   const arcs = useRef<LineSegments>(null);
   const controls = useRef<{ reset: () => void } | null>(null);
@@ -139,6 +141,16 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
   const t = useRef(0);
   const tmp = useMemo(() => new Vector3(), []);
   const laPos = useMemo(() => latLonToVec3(LA.lat, LA.lon, R * 1.01), []);
+  const laQuat = useMemo(() => new Quaternion().setFromUnitVectors(new Vector3(0, 1, 0), laPos.clone().normalize()), [laPos]);
+  const orbitPts = useMemo(() => {
+    const pts: [number, number, number][] = [];
+    const v = new Vector3();
+    for (let k = 0; k <= 128; k++) {
+      orbitPos((k / 128) * Math.PI * 2, MARKERS[0]!.tilt, ORBIT_R, v);
+      pts.push([v.x, v.y, v.z]);
+    }
+    return pts;
+  }, []);
 
   const arcGeom = useMemo(() => {
     const g = new BufferGeometry();
@@ -157,6 +169,13 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
       if (!g) return;
       orbitPos(m.angle + t.current * m.speed, m.tilt, ORBIT_R, tmp);
       g.position.copy(tmp);
+      // hide a label while its marker passes behind the globe (keeps the view uncluttered)
+      const label = labelRefs.current[i];
+      if (label) {
+        const behind = tmp.z < -0.1 && Math.hypot(tmp.x, tmp.y) < 1.08;
+        label.style.opacity = behind ? '0' : '1';
+        label.style.pointerEvents = behind ? 'none' : '';
+      }
       // conceptual arc: quadratic curve from the LA marker, lifted away from the surface (decorative)
       mid.copy(laPos).add(tmp).multiplyScalar(0.5).normalize().multiplyScalar(1.7);
       for (let k = 0; k <= 24; k++) {
@@ -201,8 +220,11 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
   return (
     <>
       <FitCamera target={TARGET} dir={DIR} width={4.2} height={3.45} />
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[3, 2, 4]} intensity={1.4} color="#dfe6ff" />
+      <ambientLight intensity={0.35} />
+      <directionalLight position={[3, 2, 4]} intensity={1.8} color="#dfe6ff" />
+      <pointLight position={[-4, -1, 2]} intensity={14} color="#9B7BFF" distance={12} />
+      <Stars radius={40} depth={25} count={1800} factor={2.6} saturation={0} fade speed={animate ? 0.4 : 0} />
+      <Line points={orbitPts} color="#9B7BFF" lineWidth={1} transparent opacity={0.22} />
       <OrbitControls
         ref={controls as never}
         makeDefault
@@ -219,18 +241,27 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
       <group ref={globe} rotation={[0, 1.95, 0]}>
         <mesh>
           <sphereGeometry args={[R, 48, 36]} />
-          <meshStandardMaterial color="#111c38" roughness={0.85} metalness={0.05} />
+          <meshStandardMaterial color="#0e1a3a" emissive="#0a1230" emissiveIntensity={0.6} roughness={0.75} metalness={0.1} />
         </mesh>
         <LandDots />
         {/* Los Angeles: supplied institution location */}
-        <group position={laPos}>
+        <group position={laPos} quaternion={laQuat}>
           <mesh>
-            <sphereGeometry args={[0.03, 16, 12]} />
-            <meshBasicMaterial color={affiliationOpen ? '#ffffff' : '#9B7BFF'} />
+            <sphereGeometry args={[0.028, 16, 12]} />
+            <meshBasicMaterial color={affiliationOpen ? '#ffffff' : '#c9b8ff'} toneMapped={false} />
           </mesh>
-          <mesh>
-            <ringGeometry args={[0.05, 0.062, 32]} />
-            <meshBasicMaterial color="#9B7BFF" transparent opacity={0.9} side={2} />
+          <mesh rotation={[-Math.PI / 2, 0, 0]}>
+            <ringGeometry args={[0.05, 0.064, 40]} />
+            <meshBasicMaterial color="#b49cff" transparent opacity={0.95} side={2} toneMapped={false} />
+          </mesh>
+          <mesh rotation={[-Math.PI / 2, 0, 0]}>
+            <ringGeometry args={[0.085, 0.092, 40]} />
+            <meshBasicMaterial color="#9B7BFF" transparent opacity={0.5} side={2} toneMapped={false} />
+          </mesh>
+          {/* beacon beam along the surface normal */}
+          <mesh position={[0, 0.2, 0]}>
+            <cylinderGeometry args={[0.006, 0.02, 0.4, 12, 1, true]} />
+            <meshBasicMaterial color="#b49cff" transparent opacity={0.55} blending={AdditiveBlending} depthWrite={false} toneMapped={false} />
           </mesh>
           <Hit radius={0.11} onClick={guarded(onAffiliation)} onOver={() => setHover(true)} onOut={() => setHover(false)} />
           <Html portal={overlay} position={[0.1, 0.1, 0]} zIndexRange={[20, 0]}>
@@ -240,7 +271,7 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
           </Html>
         </group>
       </group>
-      <mesh scale={1.09}>
+      <mesh scale={1.045}>
         <sphereGeometry args={[R, 40, 30]} />
         <shaderMaterial args={[{ ...ATMOSPHERE, side: BackSide, transparent: true, blending: AdditiveBlending, depthWrite: false }]} />
       </mesh>
@@ -255,7 +286,7 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
         const dim = topic !== 'all' && !selected;
         return (
           <group key={m.topic} ref={(g) => { markerRefs.current[i] = g; }}>
-            <TopicShape shape={style.shape} color={style.color} size={0.075} opacity={dim ? 0.35 : 1} emissive={selected ? 1.4 : 0.5} />
+            <TopicShape shape={style.shape} color={style.color} size={0.075} opacity={dim ? 0.35 : 1} emissive={selected ? 2 : 0.9} />
             {selected && (
               <mesh>
                 <ringGeometry args={[0.12, 0.14, 32]} />
@@ -264,9 +295,11 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
             )}
             <Hit radius={0.2} onClick={guarded(() => onTopic(selected ? 'all' : m.topic))} onOver={() => setHover(true)} onOut={() => setHover(false)} />
             <Html portal={overlay} center position={[0, -0.17, 0]} zIndexRange={[10, 0]} className="scene-label-wrap">
+              <div ref={(el) => { labelRefs.current[i] = el; }} className="label-fade">
               <button type="button" className={`hotspot topic${selected ? ' on' : ''}`} aria-pressed={selected} onClick={() => onTopic(selected ? 'all' : m.topic)}>
                 {m.topic}
               </button>
+              </div>
             </Html>
           </group>
         );
@@ -276,7 +309,7 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
       <group ref={satRef}>
         <mesh>
           <boxGeometry args={[0.1, 0.05, 0.05]} />
-          <meshStandardMaterial color="#F3F5FA" emissive="#9B7BFF" emissiveIntensity={0.8} />
+          <meshStandardMaterial color="#F3F5FA" emissive="#9B7BFF" emissiveIntensity={1.4} />
         </mesh>
         <mesh>
           <boxGeometry args={[0.2, 0.01, 0.07]} />
@@ -296,7 +329,13 @@ function Scene({ topic, onTopic, onAffiliation, affiliationOpen, hold, interacti
 export default function ConnectedEarth({ active, animate, fine, onContextLost, interactive, ...rest }: EarthSceneProps & SceneProps) {
   const running = active && animate && !rest.hold && !rest.affiliationOpen;
   return (
-    <SceneCanvas active={active} animating={running} onContextLost={onContextLost} touchAction={fine || interactive ? 'none' : 'pan-y'}>
+    <SceneCanvas
+      active={active}
+      animating={running}
+      onContextLost={onContextLost}
+      touchAction={fine || interactive ? 'none' : 'pan-y'}
+      bloom={{ intensity: 0.9, threshold: 0.55 }}
+    >
       <Scene {...rest} interactive={interactive} animate={animate} fine={fine} />
     </SceneCanvas>
   );

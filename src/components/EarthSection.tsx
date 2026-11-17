@@ -1,13 +1,21 @@
 import { lazy, useState } from 'react';
 import { SCHOLAR_PROFILE_URL, profile } from '../data/profile';
-import { TOPICS } from '../data/types';
+import { TOPICS, type Topic } from '../data/types';
 import { useFinePointer } from '../hooks/useCapabilities';
 import { useSelection } from '../lib/selection';
 import { EXTERNAL_LINK_PROPS } from '../lib/url';
 import { SceneShell } from '../scenes/SceneShell';
 import { TOPIC_STYLE } from '../scenes/topicStyle';
+import { IconHand, IconPin, IconReset, IconScholar } from './Icons';
+import { TOPIC_ICON } from './topicIcons';
 
 const ConnectedEarth = lazy(() => import('../scenes/ConnectedEarth'));
+
+function TopicIcon({ t }: { t: Topic }) {
+  const I = TOPIC_ICON[t];
+  return <I size={15} />;
+}
+
 
 export function EarthSection() {
   const { filters, selectTopic } = useSelection();
@@ -20,7 +28,7 @@ export function EarthSection() {
   return (
     <section className="section" id="research" aria-labelledby="earth-title">
       <div className="section-head">
-        <p className="eyebrow">Research</p>
+        <p className="eyebrow"><span className="idx">03</span>Research</p>
         <h2 id="earth-title">The connected Earth</h2>
         <p className="lede">
           A gateway to my affiliation and research themes. The marker near Los Angeles is the supplied institution location.
@@ -44,14 +52,18 @@ export function EarthSection() {
           <div className="scene-bar">
             {!fine && (
               <button type="button" className="pref-btn" aria-pressed={interactive} onClick={() => setInteractive((v) => !v)}>
+                <IconHand size={16} />
                 {interactive ? 'Exit globe interaction (scroll the page)' : 'Interact with globe'}
               </button>
             )}
-            <button type="button" className="pref-btn" onClick={() => setResetKey((k) => k + 1)}>Reset view</button>
+            <button type="button" className="pref-btn" onClick={() => setResetKey((k) => k + 1)}>
+              <IconReset size={16} /> Reset view
+            </button>
           </div>
         </div>
         <div className="side">
           <button type="button" className="btn" aria-expanded={open} aria-controls="affil-card" onClick={() => setOpen((o) => !o)}>
+            <IconPin size={17} />
             {open ? 'Hide affiliation' : 'Show affiliation'}
           </button>
           <div id="affil-card" className="affil-card" hidden={!open}>
@@ -68,7 +80,7 @@ export function EarthSection() {
               return (
                 <li key={t}>
                   <button type="button" className={`topic-btn${on ? ' on' : ''}`} aria-pressed={on} onClick={() => selectTopic(on ? 'all' : t)} style={{ ['--tag' as string]: TOPIC_STYLE[t].color }}>
-                    <span aria-hidden="true">{TOPIC_STYLE[t].glyph}</span> {t}
+                    <TopicIcon t={t} /> {t}
                   </button>
                 </li>
               );
@@ -76,7 +88,7 @@ export function EarthSection() {
           </ul>
           <p className="note">
             Selecting a topic filters the <a href="#publications">publication directory</a>.{' '}
-            <a href={SCHOLAR_PROFILE_URL} {...EXTERNAL_LINK_PROPS}>Google Scholar profile<span className="sr-only"> (opens in a new tab)</span></a>
+            <a href={SCHOLAR_PROFILE_URL} {...EXTERNAL_LINK_PROPS}><IconScholar size={15} /> Google Scholar profile<span className="sr-only"> (opens in a new tab)</span></a>
           </p>
         </div>
       </div>

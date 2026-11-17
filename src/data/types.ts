@@ -37,6 +37,11 @@ export interface Publication {
   pages?: string;
   /** Crossref issued date, kept separate from the supplied year (may differ, e.g. conference vs. listing year). */
   crossrefIssued?: string;
+  /** Two-sentence description written from the paper's published abstract (see summarySource). */
   summary: string;
+  /** Where the abstract used for the summary came from. */
+  summarySource: string;
+  /** Method / theme tags taken from the abstract. */
+  keywords: readonly string[];
   featured: boolean;
 }

@@ -123,7 +123,7 @@ describe('PublicationDirectory', () => {
     await user.selectOptions(screen.getByLabelText('Topic'), 'Security & Privacy');
     expect(screen.getByText('Showing 4 of 15 publications')).toBeInTheDocument();
     await user.selectOptions(screen.getByLabelText('Sort'), 'citations');
-    const first = screen.getAllByRole('article').filter((a) => !a.classList.contains('compact'))[0]!;
+    const first = screen.getAllByRole('article').filter((a) => !a.classList.contains('featured-card'))[0]!;
     expect(within(first).getByRole('heading', { level: 3 }).textContent).toMatch(/AI-augmented big data analytics/);
   });
 
@@ -241,7 +241,7 @@ describe('App', () => {
     expect(screen.queryByText(/download cv/i)).not.toBeInTheDocument();
     expect(screen.queryByRole('form', { name: /contact/i })).not.toBeInTheDocument();
     expect(screen.getByText(/Google Scholar snapshot supplied by the author\./)).toBeInTheDocument();
-    expect(screen.getByText('146')).toBeInTheDocument();
+    expect(screen.getAllByText('146').length).toBeGreaterThan(0);
     expect(screen.getByText('15 listed publications')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Skip to content' })).toHaveAttribute('href', '#main');
   });

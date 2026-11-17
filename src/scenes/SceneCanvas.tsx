@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useState, type ReactNode } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { PerformanceMonitor } from '@react-three/drei';
+import { Bloom, EffectComposer, Vignette } from '@react-three/postprocessing';
 import { Vector3, type PerspectiveCamera } from 'three';
 
 interface ControlsLike {
@@ -18,6 +19,8 @@ interface Props {
   /** CSS touch-action for the canvas: "pan-y" keeps native page scrolling. */
   touchAction: 'pan-y' | 'none';
   camera?: { position: [number, number, number]; fov: number };
+  /** Soft glow on bright/emissive parts. Disabled automatically on low-power devices. */
+  bloom?: { intensity: number; threshold: number };
   children: ReactNode;
 }
 
@@ -88,7 +91,7 @@ export function FitCamera({ target, dir, width, height }: { target: [number, num
   return null;
 }
 
-export function SceneCanvas({ active, animating, onContextLost, touchAction, camera, children }: Props) {
+export function SceneCanvas({ active, animating, onContextLost, touchAction, camera, bloom, children }: Props) {
   const q = useMemo(() => initialQuality(), []);
   const [maxDpr, setMaxDpr] = useState(q.dpr[1]);
   return (
@@ -96,7 +99,7 @@ export function SceneCanvas({ active, animating, onContextLost, touchAction, cam
       frameloop={active ? 'demand' : 'never'}
       dpr={[1, maxDpr]}
       camera={camera ?? { position: [0, 2, 8], fov: 35 }}
-      gl={{ antialias: q.tier !== 'low', powerPreference: 'high-performance', alpha: false }}
+      gl={{ antialias: q.tier !== 'low', powerPreference: 'high-performance', alpha: false, toneMappingExposure: 1.1 }}
       style={{ touchAction }}
     >
       {/* Measured, not guessed: lower the pixel ratio if frames are slow, raise it again if they recover. */}
@@ -109,6 +112,12 @@ export function SceneCanvas({ active, animating, onContextLost, touchAction, cam
       <ContextWatcher onLost={onContextLost} />
       <Ticker animating={active && animating} />
       {children}
+      {bloom && q.tier !== 'low' && (
+        <EffectComposer multisampling={q.tier === 'high' ? 4 : 0}>
+          <Bloom mipmapBlur intensity={bloom.intensity} luminanceThreshold={bloom.threshold} luminanceSmoothing={0.2} />
+          <Vignette eskil={false} offset={0.25} darkness={0.55} />
+        </EffectComposer>
+      )}
       <TouchAction value={touchAction} />
     </Canvas>
   );

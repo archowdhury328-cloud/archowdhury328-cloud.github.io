@@ -3,6 +3,7 @@ import { featuredPublications, publications } from '../data/publications';
 import { TOPICS, type Topic } from '../data/types';
 import { filterPublications, isDefaultFilters, yearsOf, type SortMode } from '../lib/publicationQuery';
 import { useSelection } from '../lib/selection';
+import { IconSearch } from './Icons';
 import { PublicationCard } from './PublicationCard';
 
 export function PublicationDirectory() {
@@ -13,7 +14,7 @@ export function PublicationDirectory() {
   return (
     <section className="section" id="publications" aria-labelledby="pubs-title">
       <div className="section-head">
-        <p className="eyebrow">Publications</p>
+        <p className="eyebrow"><span className="idx">05</span>Publications</p>
         <h2 id="pubs-title">{publications.length} listed publications</h2>
         <p className="lede">
           The publications listed on my Google Scholar profile, from the records I supplied. This is not a claim of a complete
@@ -33,6 +34,7 @@ export function PublicationDirectory() {
       <form className="filters" role="search" aria-label="Search and filter publications" onSubmit={(e) => e.preventDefault()}>
         <label className="field grow">
           <span>Search title, venue or author</span>
+          <span className="input-icon"><IconSearch size={17} /></span>
           <input type="search" value={filters.query} onChange={(e) => setFilters({ query: e.target.value })} placeholder="e.g. churn, security, Scientific Reports" autoComplete="off" />
         </label>
         <label className="field">

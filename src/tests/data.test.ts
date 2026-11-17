@@ -65,4 +65,13 @@ describe('publication dataset', () => {
   it('only attaches repositories that were verified to correspond to a paper', () => {
     expect(publications.filter((p) => p.repositoryUrl).map((p) => p.id)).toEqual(['p02', 'p03']);
   });
+
+  it('gives every publication an abstract-based summary, keywords and a recorded source', () => {
+    publications.forEach((p) => {
+      expect(p.summary.length).toBeGreaterThan(150);
+      expect(p.summary.toLowerCase()).not.toBe(p.title.toLowerCase());
+      expect(p.keywords.length).toBeGreaterThanOrEqual(3);
+      expect(p.summarySource).toMatch(/^Written from the published abstract/);
+    });
+  });
 });

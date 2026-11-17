@@ -43,8 +43,20 @@ dropped silently, just omitted until a complete list is verified. To fix, add th
 
 ## Summaries
 
-Summaries are one-sentence, title-level descriptions. No abstracts or full texts were read for this site, so **no findings, performance
-numbers or outcomes are stated**.
+Each summary is a two-sentence description written from the paper's **published abstract**, retrieved with
+`scripts/fetch-abstracts.mjs` into `data/abstracts-raw.json`:
+
+| Source | Records |
+|---|---|
+| OpenAlex (abstract index) | p01-p03, p05, p07, p09-p15 |
+| Springer chapter page (abstract section) | p04, p08 |
+| Semantic Scholar API | p06 |
+
+Rules used when writing them: describe the method and setting; repeat a number only if the abstract states it, and attribute it ("the paper
+reports"); never add claims the abstract does not make. Where an abstract was internally inconsistent or truncated (e.g. p04's encryption-time
+figure lacks a unit; p06 mixes billions and millions), the uncertain figure was left out. Keywords are 3-4 tags taken from the abstract.
+Each record stores `summarySource`. For p03 the site also notes that an independent reconstruction on the public dataset did not reproduce
+the reported accuracy.
 
 ## Repositories
 

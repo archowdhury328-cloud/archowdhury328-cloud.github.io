@@ -1,0 +1,197 @@
+{
+  "10": {
+    "doi": "10.52783/jisem.v9i4s.14807",
+    "source": "openalex",
+    "keywords": [
+      "data governance",
+      "multinational corporations",
+      "data quality management",
+      "policy compliance",
+      "data governance framework",
+      "corporate data management"
+    ],
+    "abstract": "This study developed an understanding of the relationship between data governance and the success of business analytics in multinational firms. The study, through a mixed-methods analysis (qualitative and quantitative) based on the Structural Equation Model (SEM), has identified important aspects of data governance for the success of business analytics. The data for this study were obtained through a number of quantitative business surveys of data governance officials and surveys administered to 250 firms around the world. Critical data variables, including data quality control, policy enforcement, and the impact of data governance approaches, were measured and analyzed. The results through SEM analyses showed a positive association of data governance variables on the success of business analytics, with the regression coefficients of data quality management (β=0.42), compliance with policies (β=0.36), and the influence of data governance frameworks (β=0.49), marked with a significance of p<0.001. The quantitative data of the study's findings were also supported and complemented by the data of the critical themes derived from a deeper examination of the quantitative data of the study's findings obtained from an analysis of the qualitative themes of the study."
+  },
+  "11": {
+    "doi": "10.22399/ijcesen.4074",
+    "source": "openalex",
+    "keywords": [
+      "microcredit",
+      "women's empowerment",
+      "Grameen Bank",
+      "microfinance",
+      "group lending",
+      "women's income"
+    ],
+    "abstract": "This research examines the role of microcredit in empowering women and enhancing their capacity to utilize funds for growth and mobility. The research examines the Grameen Bank model's impact on enhancing women's socio-economic status in Bangladesh. The study used a mixed-methods approach, utilizing both qualitative and quantitative data derived from the impact report, case study, and research paper of Grameen Bank. The study's results demonstrate enhancements in income levels and increased financial independence for women attributable to access to microcredit. Moreover, microcredit improved decision-making autonomy, particularly for borrowers engaged in group lending, where accountability and trust were paramount. Microcredit enhanced social mobility by facilitating greater educational achievement and fostering stronger community engagement. But the research draws a differentiation of numerous difficulties like payback pressure, dependency issues, and the demand for a sustainable microcredit model. This study aims to make a substantial contribution to the field of microfinance. The study elucidates methods for enhancing women's economic conditions and socio-economic empowerment through microfinance. Additionally, suggestions are offered to policymakers and microfinance institutions for enhanced outcomes. The research article underlines that microfinance is insufficient to promote gender empowerment. Moreover, it can perpetuate gender inequality by creating disparities in access to and utilization of credit following the acquisition."
+  },
+  "12": {
+    "doi": "10.32996/jcsts.2024.6.5.21",
+    "source": "openalex",
+    "keywords": [
+      "workforce analytics",
+      "artificial intelligence",
+      "labor market forecasting",
+      "skills gap",
+      "economic competitiveness",
+      "artificial intelligence integration"
+    ],
+    "abstract": "This paper discusses how AI-enabled analytics are used to detect emerging relative skill shortages, track labor market patterns. It improves the competitiveness of the economy in the United States. The intense use of Artificial Intelligence in workforce analytics has revolutionized how governments and industries forecast the labor market needs the study throws light on the role of real-time data variables and prediction modelling in making workforce development meet changing industry demands. The research project has adopted quantitative research design. A systematic questionnaire was sent to a sampling of 300 participants comprising HR analysts, labor economists and policymakers in different industries of the U.S. Variables that were measured included the AI Integration Level, Labor Market Responsiveness, Real-Time Data Utilization, Predictive Accuracy and the dependent variable, Economic Competitiveness. The findings showed that there were significant correlations among AI integration (r = 0.71, p < 0.01), predictive accuracy (r = 0.68, p < 0.01), and economic competitiveness, which are significant. Regression outcome showed that AIL and PA were the most powerful determinants of EC (R² = 0.61). AI-based analytics in the establishment would promote not only labor market predictions but also boost the strategic position of the U.S. in the global economy. The government and business in scaling the use of AI. It is ensuring the training programs reflect the areas of skill shortage and fostering the development of data infrastructure."
+  },
+  "13": {
+    "doi": "10.62754/joe.v3i8.6762",
+    "source": "openalex",
+    "keywords": [
+      "grocery sales",
+      "big data analytics",
+      "machine learning algorithm comparison",
+      "decision tree",
+      "XGBoost",
+      "gradient boosting"
+    ],
+    "abstract": "Consumers now have more options and comparison shopping when making purchases thanks to the new retail industry's quick expansion. This has increased rivalry among supermarket chains and continuously compressed profit margins. This research uses big data analytics to compare several ML approaches for forecasting grocery sales. The purpose of the research is to assess how well different ML algorithms predict sales. This paper uses supermarket sales data as the database, uses Python to conduct data preprocessing. By analyzing this data, including identifying anomalies and trends through data mining techniques, develop predictive models using advanced machine learning algorithms including DT, XGBoost, GB, and RF are employed to forecast sales volumes with greater accuracy than traditional methods across MAE, and R2-score. In evaluating model performance, the Extra Trees (ET) model exhibits superior accuracy with an R² of 0.94 and MAE of 1.96, compared to the existing models. Addressing challenges such as data sparsity, variability, and adapting to dynamic market conditions will be crucial. Additionally, future research could investigate novel methods for combining diverse forecasting approaches and refining models to better handle the complexities of real-world sales data."
+  },
+  "14": {
+    "doi": "10.53555/kuey.v30i10.9643",
+    "source": "openalex",
+    "keywords": [
+      "business analytics",
+      "management information systems",
+      "Industry 4.0",
+      "smart manufacturing",
+      "sustainable economic growth",
+      "business intelligence"
+    ],
+    "abstract": "This paper aims to review and analyze the connection between Business analytics and Management Information Systems in the Industry 4.0. The ability to facilitate decision-making and foster a sustainable intelligent environment in smart manufacturing companies. Industry 4.0 has brought the biggest change in the manufacturing industries today by providing more efficiency and sustainability. Launching Management Information Systems and business analytics, business intelligence is a key strategic tool that enables sustainable economic growth by improving an organization’s efficiency and cutting down on unnecessary spending. Examining the supply and demand of Management Information Systems and the effects of business analytics to support and accelerate sustainable economic growth. The research included case analysis of smart manufacturing firms and qualitative surveys with industry specialists. A real-time system environment was developed for manufacturing IoT innovative systems, with specific applications of predictive and prescriptive models. The sustainability and analysis capabilities of the Management Information Systems platforms are assessed. The study concludes that incorporating business analytics in smart manufacturing together with Management Information Systems offers a substantial enhancement to the economy’s sustainability. This is accomplished by improving resource use, reducing the output of waste, and using big data analysis for innovation. The study emphasizes how different Industry 4.0 technologies integrated into a proper Management Information Systems framework led to the development of a sustainable manufacturing environment. These aspects provide important information for any company that would like to integrate its performance goals with the general economic and environmental goals."
+  },
+  "15": {
+    "doi": "10.52710/fcb.137",
+    "source": "openalex",
+    "keywords": [
+      "cyber threat detection",
+      "big data analytics",
+      "management information systems",
+      "incident response",
+      "system resilience",
+      "risk management"
+    ],
+    "abstract": "The research analyzes exactly how Big Data Analysis improves threat detection combined with response capabilities in Management Information System which delivers enhanced system resilience along with better risk management capabilities. Organizations fast-forwarded their business digitization efforts Management Information Systems became more important than ever while making them attractive targets against cyber-attacks. It is challenging to manage both the rising cyberattack complexity together with their increased number. The application of Big Data Analytics delivers a game-changing strategy for cybersecurity, which depends on immediate data handling and detection of security patterns and the design of predictive systems. This study uses both quantitative methods and qualitative analysis to develop its methodology. A comprehensive evaluation of Big Data Analysis applications for cybersecurity takes place through systematic research while analyzing organizational implementations of Big Data Analysis security solutions. The analysis utilizes machine learning models to process information obtained from cybersecurity incidents as well as response strategies to determine the predictive capabilities of threat detection. Organizations realize improved cybersecurity results by implementing Big Data Analytics since they develop the capability to detect threats early and have quicker incident response times. The integration of Big Data Analysis technology in security frameworks helps organizations resist better cyber-attacks. AI analysis technology and blockchain networks so Management Information System cybersecurity systems can achieve greater strength."
+  },
+  "01": {
+    "doi": "10.1038/s41598-026-59480-0",
+    "source": "openalex",
+    "keywords": [
+      "MBConv",
+      "compact neural networks",
+      "image-level classification",
+      "cross-dataset transferability",
+      "temperature scaling",
+      "Grad-CAM"
+    ],
+    "abstract": "Image-level classification of oral-cavity photographs remains challenging because oral-cancer appearances are heterogeneous and many public datasets lack patient identifiers, acquisition metadata, biopsy confirmation, and lesion-level annotations. This study proposes OCAT-Net-S, a compact hierarchical network for binary classification of Normal versus Oral Cancer from RGB clinical oral images. The model combines a convolutional stem, MBConv blocks, MBConv-SE blocks, and Texture Frequency Spatial Gating (TFSG) blocks to integrate local texture extraction, channel recalibration, and frequency-guided spatial attention within a 3.55 M-parameter architecture. Internal evaluation used the Atef-Kaggle Oral Cancer Images for Classification dataset, containing 1,238 images: 553 Normal and 685 Oral Cancer. Because patient identifiers were unavailable, five-fold stratified group cross-validation with filename-sequential grouping was used as a leakage-reduction proxy and repeated across five seeds. OCAT-Net-S achieved an internal AUC-ROC of 0.956, oral-cancer F1-score of 0.942, and sensitivity of 0.942, compared with AUC-ROC 0.941 for the strongest evaluated baseline, TinyViT-5 M. Validation-only temperature scaling produced a mean Brier score of 0.0419, ECE-15 of 0.0174, and NLL of 0.1798. To reduce overinterpretation from repeated seed runs, fold-level inference was reported, giving an internal AUC-ROC estimate of 0.956 with an approximate 95% CI of 0.940-0.972. External transfer testing was performed without external threshold tuning on two independent settings: SMART-OM Normal-versus-OSCC and the Oral Images Dataset benign-versus-malignant oral-lesion task. AUC-ROC decreased to 0.830 and 0.840, respectively, indicating measurable cross-dataset shift despite partial transferability. Qualitative Grad-CAM visualizations suggested lesion-focused activation patterns, but lesion-level masks were unavailable for quantitative localization validation. Overall, OCAT-Net-S demonstrates compact internal image-level discrimination and limited external transferability; however, the findings do not establish patient-level generalization, prospective clinical validity, clinician-equivalent performance, or deployment readiness."
+  },
+  "02": {
+    "doi": "10.1007/s44163-026-01509-4",
+    "source": "openalex",
+    "keywords": [
+      "tuberculosis detection",
+      "chest radiography",
+      "explainable AI",
+      "Grad-CAM",
+      "attention maps",
+      "dual-branch architecture"
+    ],
+    "abstract": "Tuberculosis remains a major global public health challenge, and chest X ray imaging is widely used for population level screening due to its accessibility and low cost. However, existing deep learning approaches based solely on convolutional or transformer architectures often struggle to simultaneously capture complementary local and global representations, while also providing limited interpretability, which restricts clinical trust and deployment. This study aims to develop an interpretable deep learning framework for automated tuberculosis detection from chest X ray images by integrating complementary feature representations with transparent visual explanations. The proposed XACT TB framework is evaluated on a tuberculosis chest X ray database consisting of tuberculosis and normal images collected from public and agreement based sources. Preprocessing includes contrast limited adaptive histogram equalization, noise removal, and controlled data augmentation applied only to the training set to address class imbalance. The architecture employs a dual branch design in which a custom convolutional neural network extracts local discriminative features and provides Grad CAM based visual explanations, while a Swin Transformer models global contextual dependencies with attention map visualization. The extracted features are fused and classified using a support vector machine. The proposed model achieves a ROC AUC of 1.000 and an accuracy of 99.44 percent, with sensitivity of 99.41 percent, specificity of 99.53 percent, precision of 99.37 percent, and F1 score of 99.38 percent on the evaluated dataset. Visual explanations from Grad CAM and transformer attention maps highlight relevant lung regions and provide complementary interpretability without altering the training process. The proposed XACT TB framework provides accurate and interpretable tuberculosis detection from chest X ray images by combining convolutional and transformer based representations with transparent visual explanation. The results demonstrate the potential of the framework to support reliable and explainable computer aided tuberculosis screening under the reported evaluation setting."
+  },
+  "03": {
+    "doi": "10.1007/s44163-026-00983-0",
+    "source": "openalex",
+    "keywords": [
+      "customer churn prediction",
+      "telecommunications",
+      "explainable machine learning",
+      "SHAP",
+      "tabular data model",
+      "multilayer perceptron"
+    ],
+    "abstract": "Telecom operators need churn models that are both accurate and explainable for operational decision making. We study the Kaggle Telco Customer Churn dataset with a class ratio of approximately two point seven seven to one in favor of non churn. We benchmark five tabular learners namely Logistic Regression with Elastic Net, Support Vector Classifier with radial basis kernel, Random Forest, XGBoost, and a Neural Network based on a multilayer perceptron. Model selection uses nested cross validation with an inner search for hyperparameters and an outer five fold stratified evaluation that reports accuracy, precision, recall, F1 score, ROC AUC, and PR AUC. The multilayer perceptron attains 92.28% accuracy with precision 0.88, recall 0.82, and an F1 score of approximately 0.85. The remaining models deliver accuracy between 80 and 89%. Wilcoxon signed rank tests across folds show consistent gains for the multilayer perceptron. Two sided results are at the level of a trend while one sided tests that encode the directional hypothesis that the multilayer perceptron is better are significant. SHAP, partial dependence, and individual conditional expectation reveal a monotonic risk decrease with tenure with a tipping point around three or more years. Risk rises from zero to five technical tickets and then saturates and is amplified by higher monthly charges and month to month contracts with fiber users most sensitive. Recommended actions are contract migration, rapid issue resolution, and targeted credits for early life high charge customers with multiple tickets. Our contribution is a compact and reproducible pipeline that pairs strong tabular models with model agnostic explanations suitable for deployment and analyst use."
+  },
+  "04": {
+    "doi": "10.1007/978-3-032-21499-7_41",
+    "source": "springer-page",
+    "keywords": [
+      "homomorphic encryption",
+      "big data analytics",
+      "privacy-preserving data analysis",
+      "public cloud",
+      "fully homomorphic encryption",
+      "somewhat homomorphic encryption"
+    ],
+    "abstract": "With the cloud-driven growth in big data, issues of data privacy and secure analytics have become more significant. With the movement of more computations to outsourced settings, mechanisms to maintain confidentiality with minimal performance costs are becoming dominant. Homomorphic Encryption (HE) is unique in that the computations can be performed over encrypted data, yet it cannot be used practically due to computational overhead, latency, and incompatibility of security and efficiency. In the given paper, the performance analysis of the advanced HE methods including Partially Homomorphic Encryption (PHE), Somewhat Homomorphic Encryption (SHE), Fully Homomorphic Encryption (FHE), and SIMD-FHE is thoroughly explored with a focus on big-data analytics on the public clouds. The suggested approach exploits such factors as optimized parameterization, non-streamed processing, and noise-resistant encoding to improve its viability computationally. The simulation reveals that SIMD-FHE reduces the encryption time by 42.3 on that of conventional FHE and also offers a throughput rate of more than 55 operations/s. The size of ciphertext expansions is reduced to 0.62x-4.1x with SIMD techniques, massively decreasing the communication expenses. The emulated reaches the minimum possible average delay of 18.6 ms, and batched modular arithmetic restrains the propagation of noise between any two multiplications to less than 0.9 bits. As well, there is a 15–30% improvement in memory and depth usage in varying workloads. The research gives measurable tradeoffs and practical recommendations on how to implement HE in massive cloud-based systems. These results establish a foundation of secure privacy-preserving analytics in areas including finance, healthcare, and public governance, beyond the scope of the practicality and trustworthiness of mapped out correspondence in untrusted cloud circumstances."
+  },
+  "05": {
+    "doi": "10.1109/i3ctcon68242.2026.11507407",
+    "source": "openalex",
+    "keywords": [
+      "artificial intelligence in supply chains",
+      "demand forecasting",
+      "inventory optimization",
+      "logistics routing",
+      "supplier risk assessment",
+      "explainable AI"
+    ],
+    "abstract": "The growing complexity, volatility and interdependence of current supply chains require smart decision-making frameworks that enable them to run end-to-end supply chain processes. Artificial Intelligence (AI) has become one of the transformational facilitators of optimization of procurement, production, inventory, logistics, and distribution in a holistic way. The current paper proposes a detailed AI-based system of end-to-end optimization of supply chains through the use of machine learning, deep learning, reinforcement learning, as well as hybrid and hybrid optimization algorithms to optimize operations, supply chain resilience, and sustainability. The approach proposed includes demand forecasting with the help of predictive analytics, inventory optimization through the adaptive learning mechanism, logistics routing through the reinforcement learning mechanism, and assessment of supplier risk with the help of explainable AI models. Moreover, the framework facilitates real-time decision making through the combination of IoT-enabling data streams and digital twin models of supply chain networks. Significant progress in the cost reduction, service-level compliance, demand fulfilment accuracy, and disruption reduction when compared to the conventional optimization and rule-based approaches have been shown through extensive experimental appraisals with benchmark and real-world supply chain data. These findings affirm that AI-powered end-to-end optimization is not only able to improve supply chain visibility and supply chain agility but it is also able to offer scalable and resilient solutions in dynamic and uncertain settings. This paper brings about a cohesive AI architecture between strategic, tactical, and operational supply chain decisions which provide practical insights towards smart and sustainable supply chain management."
+  },
+  "06": {
+    "doi": "10.1109/icecet63943.2025.11472202",
+    "source": "semanticscholar",
+    "keywords": [
+      "homelessness",
+      "cost prediction",
+      "business analytics",
+      "sustainable solutions",
+      "social policy",
+      "United States"
+    ],
+    "abstract": "Homelessness is a devastating problem in the United States as it so fundamentally affects economic and social life and puts massive pressure on the resources of the country and its population. The direct costs have been estimated to be on emergency shelters by $6.5 billion in 2023, and healthcare service by $11.2 billion in 2023, while the indirect ones are productivity loss and high rates of criminal activities. This study uses sophisticated business analytics to number up these costs, forecast them over time, and measure the impact of integrated interventions. This is because integrated Countdown Analysis shows that without intervention, total homelessness affordable costs will rise from $26.2 billion in the federal fiscal year 2023 to $42.2 billion in the federal fiscal year 2033. Nevertheless, existence of supportive tactical themes like affordable house projects, health promotion campaigns, and training and development of workforce can help to substantially lessen such a financial burden. With such interventions, cost will be estimated at $ 33.5 million by 2033 while there will be annual savings of $8.7 million. Some of them are fairly quantifiable such as saving the cost of health care to $9.8 billion (from $18.2 billion) and shelter cost to $5.5 billion (from $9.3 billion) in the same time frame. This research thus reveals how data have the power of bringing social change through an effective policy of addressing homelessness. Moreover, by pointing to particulars that would generate high costs and modelling how integrated best practices would change such outcome, it provides decision makers with a strategic guide to optimally utilize resources that would lead to improved efficiency and resource sustainability. The studies highlight the importance of the economic and social returns of transition from the fire-fighting model to the approach that aims on the prevention and prevention-only model; the authors encourage the policymakers, non-profit organizations and the private entities to join effort in advancing and implementing long-lasting solutions."
+  },
+  "07": {
+    "doi": "10.1109/icaft66710.2025.11453175",
+    "source": "openalex",
+    "keywords": [
+      "predictive medicine",
+      "clinical decision support",
+      "multimodal patient data",
+      "electronic health records",
+      "longitudinal biomarkers",
+      "interpretable prediction"
+    ],
+    "abstract": "Developments in artificial intelligence have made bio-cognitive systems integrating biological inspirations, cognitive computing, and data-driven intelligence to improve clinical decision-making possible. The paper suggests a new Bio-Cognitive AI design of predictive healthcare decision support that integrates multimodal patient data, physiological cues, electronic health records (EHR) and longitudinal biomarkers through a hybrid system, which combines deep neural network, cognitive reasoning, and adaptive learning engines. The system relies on early alert warnings of chronic diseases, contextual inference and explainable prediction to provide predictive layers, hierarchical feature abstraction, and patient risk trajectory assessment and optimal intervention pathway recommendations. The framework has interpretable AI models, quantification of uncertainty, federated learning with privacy assurance, and reinforcement learning to refine continuous performance to achieve trust, robustness, and clinical adoption. Experimental analysis of actual healthcare data show that prediction accuracy, sensitivity and time-to-detection significantly improve when using experimental evaluation with real world data. The suggested Bio-Cognitive AI is a clinically reliable and secure next-generation technology to support the management of diseases proactively and make more informed medical decisions because this solution is scalable."
+  },
+  "08": {
+    "doi": "10.1007/978-3-032-14197-2_41",
+    "source": "springer-page",
+    "keywords": [
+      "blockchain-based access control",
+      "attribute-based access control",
+      "compliance audit",
+      "smart contracts",
+      "cryptographic tokens",
+      "audit logging"
+    ],
+    "abstract": "Change of cloud computing to federated ecosystems has come with complicated issues connected with entry control, setting, and checking of policies, and well-being. The traditional role-based access control (RBAC) and centralized attribute-based access control (ABAC) machinery are limited and not risk-free to internal risks, single-point failures, and audit trails manipulation and do not perform well with dynamic and cross-domain access demands. In abating these cybersecurity issues, a Blockchain Driven Access Control and Compliance Auditing Framework is proposed in this paper and tailored towards federated cloud service providers. Unlike the current approaches to blockchain-based ABAC, this framework marries blockchain technology and decentralized ABAC to provide tamper-resistant policy management, real-time compliance checking, and accountability of access. The use of smart contracts allows enforcing the access conditions to be autonomous and to log all the access transactions on the blockchain ledger in an immutable manner, and as such, this improves the data integrity, traceability, and non-repudiation. The target is privacy-informed decision-making and is achieved through a cryptographic token mechanism, which enables secure policy referencing without disclosing any sensitive attributes. Using thorough experimental simulations, it is proved that the suggested model gets the outstanding compliance violation detection rate of 96.4% which is vastly greater in disparity to traditional RBAC (83.1%) and centralized ABAC (87.5%) models. Additionally, the system enhances policy verification time by 35.2% and lowers average access latency by 28.7%, which proves that the system is efficient in high-load conditions. The blockchain module can effectively support an average of 52.3 transactions per second (TPS) with the average node resource consumption rate staying at less than 68%, which proves its scalability and sustainability of its work. The framework proposed is a comprehensive cybersecurity solution that would enable the implementation of trust-less access governance, autonomous audit logging, and strong security controls to ensure the cybersecurity of cloud federations. It potently re-minimizes attack areas, is audit-friendly and permits safe inter-provider cooperation as a noteworthy stride to sturdy and decentralized cloud infrastructure, plus policy-driven cloud infrastructures."
+  },
+  "09": {
+    "doi": "10.22399/ijcesen.3564",
+    "source": "openalex",
+    "keywords": [
+      "big data analytics",
+      "cyberattack detection",
+      "real-time threat detection",
+      "cybersecurity",
+      "malware",
+      "phishing"
+    ],
+    "abstract": "Big data analytics, as used in defense, is the capacity to gather vast amounts of digital data for analysis, visualization, and decision-making that might aid in anticipating and preventing cyberattacks. When combined with security technologies, it improves it position in terms of cyber defense. They enable companies to identify behavioral patterns that point to network dangers. With its potent capabilities to tackle the increasing scope, variety, and complexity of cyberthreats, big data analytics has become a disruptive force in contemporary cybersecurity. Traditional data processing methods fall short in managing the massive volumes, varieties, and velocities (3Vs) characteristic of big data. This paper explores the foundational principles of big data analytics, including its core dimensions and key application areas such as healthcare, transportation, finance, education, and social media. The study further investigates the classification of cyberattacks malware, phishing, ransomware, and advanced persistent threats (APTs) and their evolving complexity due to AI-powered automation, IoT proliferation, and multi-vector intrusion techniques. It is highlighted how crucial big data is to supporting real-time threat detection, predictive modelling, and automated incident response. Techniques such as behavioral analysis, threat intelligence integration, and anomaly detection are examined for their effectiveness in identifying sophisticated attacks like polymorphic malware and zero-day exploits. Ultimately, this paper highlights how big data analytics enhances cybersecurity capabilities by delivering predictive, prescriptive, diagnostic, and cyber-specific insights that empower proactive threat mitigation and ensure digital resilience."
+  }
+}

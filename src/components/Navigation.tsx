@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { profile } from '../data/profile';
 import { usePreferences } from '../hooks/useMotionPreference';
+import { IconCube, IconList, IconPause, IconPlay } from './Icons';
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
@@ -21,9 +22,11 @@ export function PreferenceControls() {
         onClick={togglePaused}
         title={reducedMotion ? 'Your system requests reduced motion, so animation is already off.' : undefined}
       >
+        {paused || reducedMotion ? <IconPlay size={15} /> : <IconPause size={15} />}
         {reducedMotion ? 'Motion off (system)' : paused ? 'Resume animation' : 'Pause animation'}
       </button>
       <button type="button" className="pref-btn" aria-pressed={viewMode === 'simple'} onClick={() => setViewMode(viewMode === 'simple' ? '3d' : 'simple')}>
+        {viewMode === 'simple' ? <IconCube size={15} /> : <IconList size={15} />}
         {viewMode === 'simple' ? 'Switch to 3D view' : 'Switch to simple view'}
       </button>
     </div>
@@ -51,7 +54,7 @@ export function Navigation() {
     <header className="site-header">
       <div className="nav-inner">
         <a className="brand" href="#top">
-          <span className="brand-mark" aria-hidden="true">{profile.monogram}</span>
+          <img className="brand-mark" src={`${import.meta.env.BASE_URL}favicon.svg`} width="34" height="34" alt="" />
           <span className="brand-name">{profile.name}</span>
         </a>
         <button
